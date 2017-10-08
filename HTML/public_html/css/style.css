@@ -1,0 +1,69 @@
+ @font-face { font-family: CalendarNote; src: url('fonts/calendar-note-tfb.ttf'); } 
+
+ @font-face { font-family: California; src: url('fonts/California.ttf'); } 
+
+ @font-face { font-family: FuturaBook; src: url('fonts/futura-book-bt-593ce240b8df2.ttf'); } 
+
+ @font-face { font-family: GeometricBook; src: url('fonts/Geometric-212-Book-Condensed-BT.ttf'); } 
+
+ @font-face { font-family: UrbanStone; src: url('fonts/Urban-Stone.otf'); } 
+
+ @font-face { font-family: Rodondo; src: url('fonts/Rodondo.otf'); } 
+
+ @font-face { font-family: Junction; src: url('fonts/Junction-regular.otf'); } 
+
+
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.reveal-if-active label {
+  display: block;
+  margin: 0 0 3px 0;
+}
+.reveal-if-active input[type=text] {
+  width: 100%;
+}
+input[type="radio"]:checked ~ .reveal-if-active, input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 1500px;
+  padding: 10px 20px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  overflow: visible;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+form > div {
+  margin: 0 0 20px 0;
+}
+form > div label {
+  font-weight: bold;
+}
+form > div > div {
+  padding: 5px;
+}
+form > h4 {
+  color: #ed1111;
+  font-size: 24px;
+  margin: 40px 0 20px 0;
+  border-bottom: 2px solid #ed1111;
+  font-family: 'futura', sans-serif;      
+  letter-spacing: 10px;
+  line-height: 100%;
+  font-weight: 700; 
+  color: #81160c;
+  text-transform: uppercase;
+}
+
+

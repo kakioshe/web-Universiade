@@ -1,0 +1,74 @@
+html { 
+  background: url(../picture/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+	font-family: 'Bellefair', serif;
+	font-size: 1.5em;
+}
+
+h1{
+	font-family: 'Bellefair', serif;
+	font-size: 5em;
+}
+
+a{
+	font-size: 3em;
+}
+
+
+.center {
+
+  text-align: center;    
+  margin: 0px auto;
+  margin-bottom: 60px;
+
+}
+
+.link{
+	padding: 20px 50px 20px 50px;
+	font-family: 'Bellefair', serif;
+}
+
+.link:hover{
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: background-color 1000ms linear, color 1000ms linear;
+    -ms-transition: background-color 1000ms linear, color 1000ms linear;
+    transition: background-color 1000ms linear, color 1000ms linear;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+  text-decoration:  none;
+} 
+
+a:active  {
+  text-decoration:  none;
+  } 
+
+.text{
+	padding:50px 0px 200px 50px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   .text {
+	padding:50px 0px 100px 50px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+   .text { 
+	padding:50px 0px 50px 50px;
+  }
+}
